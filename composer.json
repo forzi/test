@@ -1,8 +1,9 @@
 {
     "name": "stradivari/test",
 	"extra": {
+		"installer-name": "test",
         "installer-paths": {
-            "stradivari/lib/test/": ["type:stradivari-library"]
+            "stradivari/lib/{name}/": ["stradivari/test"]
         }
     }
     "description": "test",
