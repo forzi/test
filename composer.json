@@ -1,10 +1,10 @@
 {
     "name": "stradivari/test",
-	"config": {
-        "vendor-dir": "vendor/stradivari/lib"
-    },
 	"extra": {
 		"installer-name": "test",
+        "installer-paths": {
+            "vendor/stradivari/lib/{name}/": ["test"]
+        }
     }
     "description": "test",
     "type": "stradivari-library",
