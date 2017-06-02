@@ -1,8 +1,10 @@
 {
     "name": "stradivari/test",
-	"config": {
-		"vendor-dir": "stradivari/lib/"
-	},
+	"extra": {
+        "installer-paths": {
+            "stradivari/lib/test": ["stradivari/test"]
+        }
+    }
     "description": "test",
     "type": "library",
     "license": "GPL-3",
@@ -14,5 +16,7 @@
     ],
     "minimum-stability": "dev",
 	"prefer-stable": true,
-    "require": {}
+    "require": {
+        "composer/installers": "^1.3"
+    }
 }
