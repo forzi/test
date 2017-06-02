@@ -1,5 +1,5 @@
 {
-    "name": "test",
+    "name": "stradivari/test",
 	"config": {
 		"vendor-dir": "stradivari/lib/"
 	},
@@ -14,5 +14,6 @@
     ],
     "minimum-stability": "dev",
 	"prefer-stable": true,
-    "require": {}
+    "require": {},
+	
 }
