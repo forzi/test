@@ -2,11 +2,11 @@
     "name": "stradivari/test",
 	"extra": {
         "installer-paths": {
-            "stradivari/lib/test": ["vendor/package"]
+            "stradivari/lib/test": ["type:stradivari-library"]
         }
     }
     "description": "test",
-    "type": "library",
+    "type": "stradivari-library",
     "license": "GPL-3",
     "authors": [
         {
